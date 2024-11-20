@@ -183,6 +183,8 @@ En **Argentina**, este fenómeno es igualmente relevante. El internet y la telef
 
 ### 📊 Ingresos por Tecnología (2014-2024)
 
+### Ingresos por Tecnología (2014-2024)
+
 ![Ingresos por Tecnología](https://github.com/jorgesislema/Telecomunicaciones-en-Argentina/blob/main/imagenes/output1.1.png?raw=true)
 
 Se compararon los ingresos generados por cada tecnología de telecomunicaciones entre 2014 y 2024, destacando:
