@@ -162,46 +162,45 @@ Durante esta etapa, se realizaron los siguientes pasos:
     Resultados del ETL:
         Se obtuvo un conjunto de archivos CSV limpios, organizados y listos para ser analizados en las siguientes etapas.
 ---
-# Exploración de Datos (EDA)
+# 📊 Exploración de Datos (EDA)
 
 El **Análisis Exploratorio de Datos (EDA)** busca explorar y comprender las tendencias y relaciones dentro de los datos del sector de telecomunicaciones en Argentina. Este análisis se enfoca en las tecnologías de comunicación más relevantes (internet, telefonía móvil, telefonía fija y televisión), evaluando su adopción, ingresos y relevancia en el mercado.
 
 ---
 
-## 1. Contexto Global y Nacional
+## 🌐 1. Contexto Global y Nacional
 
 El internet ha transformado el mundo, revolucionando cómo las personas interactúan, trabajan y acceden a la información. Su adopción ha sido acelerada por factores como:
 
-- **Tecnología móvil**: Ha permitido un acceso más amplio y flexible.
-- **Pandemia de COVID-19**: Impulsó el uso del internet para trabajo remoto, educación y entretenimiento.
+- **📱 Tecnología móvil**: Ha permitido un acceso más amplio y flexible.
+- **🦠 Pandemia de COVID-19**: Impulsó el uso del internet para trabajo remoto, educación y entretenimiento.
 
 En **Argentina**, este fenómeno es igualmente relevante. El internet y la telefonía móvil han mostrado un **crecimiento exponencial**, mientras que las tecnologías tradicionales, como la telefonía fija y la televisión por suscripción, enfrentan un declive relativo.
 
-
-
 ---
 
-## 2. Análisis Descriptivo
-![Ingresos por Tecnología]
-![Distribución de Tecnologías](https://github.com/jorgesislema/An-lisis-Integral-del-Sector-de-Telecomunicaciones-en-Argentina-/blob/main/imagenes/arbol%20Treemap.png?raw=true)
-### Ingresos por Tecnología (2014-2024)
+## 📈 2. Análisis Descriptivo
+
+### 📊 Ingresos por Tecnología (2014-2024)
+
+![Ingresos por Tecnología](https://github.com/jorgesislema/An-lisis-Integral-del-Sector-de-Telecomunicaciones-en-Argentina-/blob/main/imagenes/Evoluci%C3%B3n%20de%20Accesos%20por%20cada%20100%20Hogares%20en%20Provincias.png?raw=true)
 
 Se compararon los ingresos generados por cada tecnología de telecomunicaciones entre 2014 y 2024, destacando:
 
-- **Telefonía Móvil**:
+- **📞 Telefonía Móvil**:
   - Liderazgo en ingresos: En 2014, generaba 13,970.8 millones de pesos, mientras que en 2024 se estima que alcanzará 1,108,472.5 millones de pesos.
   - Crecimiento sostenido: Su capacidad de adaptación a la tecnología móvil consolidó su liderazgo.
 
-- **Internet**:
+- **🌐 Internet**:
   - Crecimiento exponencial: En 2014, los ingresos eran de 3,270.8 millones de pesos, aumentando a 442,032.2 millones en 2024.
   - Fluctuaciones: A pesar de caídas económicas, desde 2022 ha mostrado una recuperación acelerada.
 
-- **Telefonía Fija y TV por Suscripción**:
+- **📺 Telefonía Fija y TV por Suscripción**:
   - Crecimiento marginal y relevancia en declive: Estas tecnologías han sido desplazadas por la telefonía móvil y las plataformas de streaming.
 
 ---
 
-### Variación Regional
+### 🗺️ Variación Regional
 
 #### Acceso por Provincia
 - Zonas urbanas como la Patagonia lideran en conectividad, mientras que el Noreste enfrenta brechas significativas.
@@ -209,12 +208,13 @@ Se compararon los ingresos generados por cada tecnología de telecomunicaciones 
 #### Impacto de la Pandemia
 - La pandemia aumentó significativamente la dependencia del internet, acelerando el crecimiento en provincias con mejor infraestructura.
 
-!![Ingresos por Tecnología]((https://github.com/jorgesislema/An-lisis-Integral-del-Sector-de-Telecomunicaciones-en-Argentina-/blob/main/imagenes/Evoluci%C3%B3n%20de%20Accesos%20por%20cada%20100%20Hogares%20en%20Provincias.png?raw=true)
 ---
 
-### Distribución de Accesos por Tecnología (2014 vs 2024)
+### 📊 Distribución de Accesos por Tecnología (2014 vs 2024)
 
 El gráfico de comparación muestra cómo las tecnologías de acceso a internet han evolucionado:
+
+![Distribución de Tecnologías](https://github.com/jorgesislema/An-lisis-Integral-del-Sector-de-Telecomunicaciones-en-Argentina-/blob/main/imagenes/arbol%20Treemap.png?raw=true)
 
 - **Fibra Óptica**:
   - Creció significativamente, alcanzando el **36.1% en 2024**, impulsada por la demanda de mayor velocidad y ancho de banda.
@@ -230,9 +230,11 @@ El gráfico de comparación muestra cómo las tecnologías de acceso a internet 
 
 ---
 
-### Distribución de Tecnologías por Provincia
+### 🌍 Distribución de Tecnologías por Provincia
 
 El gráfico de árbol (Treemap) ilustra la distribución de tecnologías de acceso en cada provincia:
+
+![Distribución de Tecnologías](https://github.com/jorgesislema/An-lisis-Integral-del-Sector-de-Telecomunicaciones-en-Argentina-/blob/main/imagenes/arbol%20Treemap.png?raw=true)
 
 - **Provincias Urbanas**:
   - En regiones como **CABA, Buenos Aires y Córdoba**, predomina la **fibra óptica** y el **cablemódem**.
@@ -240,25 +242,22 @@ El gráfico de árbol (Treemap) ilustra la distribución de tecnologías de acce
 - **Provincias Rurales**:
   - En zonas como **Formosa** y **Santiago del Estero**, tecnologías como **wireless** y **satelital** tienen mayor presencia.
 
-![Distribución de Tecnologías](https://github.com/jorgesislema/An-lisis-Integral-del-Sector-de-Telecomunicaciones-en-Argentina-/blob/main/imagenes/arbol%20Treemap.png?raw=true)
-
 ---
 
-## 3. Conclusiones Generales
+## ✅ 3. Conclusiones Generales
 
-1. **Telefonía Móvil e Internet**:
+1. **📱 Telefonía Móvil e Internet**:
    - Son las tecnologías líderes del sector, con un crecimiento constante y una adopción masiva.
 
-2. **Telefonía Fija y Televisión por Suscripción**:
+2. **📺 Telefonía Fija y Televisión por Suscripción**:
    - Están siendo desplazadas por alternativas modernas como el streaming.
 
-3. **Brechas Regionales**:
+3. **🌍 Brechas Regionales**:
    - Persisten desigualdades significativas entre las regiones urbanas y rurales, destacando la necesidad de políticas públicas para garantizar una conectividad equitativa.
 
-4. **Oportunidades de Inversión**:
+4. **💡 Oportunidades de Inversión**:
    - Las regiones menos conectadas presentan oportunidades para desarrollar infraestructura y mejorar la inclusión digital.
 
 ---
 
 Este análisis establece una base para identificar oportunidades de inversión y mejora en el sector de telecomunicaciones en Argentina.
-
