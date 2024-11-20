@@ -162,3 +162,95 @@ Durante esta etapa, se realizaron los siguientes pasos:
     Resultados del ETL:
         Se obtuvo un conjunto de archivos CSV limpios, organizados y listos para ser analizados en las siguientes etapas.
 ---
+# Exploración de Datos (EDA)
+
+El Análisis Exploratorio de Datos (EDA) permite comprender de manera más profunda las tendencias y relaciones en los datos relacionados con el sector de telecomunicaciones en Argentina. Este análisis se enfoca en cómo las diferentes tecnologías de comunicación, como el internet, la telefonía móvil, la telefonía fija y la televisión, han evolucionado en términos de ingresos, adopción y relevancia en el mercado.
+
+---
+
+## Contexto Global y Nacional
+
+Desde su creación, el internet ha revolucionado las interacciones humanas, el acceso a la información y la forma de trabajar. En el contexto mundial, factores como el auge de la tecnología móvil y la pandemia de COVID-19 han impulsado la adopción de internet, marcando hitos históricos en su expansión. 
+
+En Argentina, esta evolución no ha sido diferente: el internet y la telefonía móvil han experimentado un crecimiento acelerado, mientras que los medios tradicionales, como la telefonía fija y la televisión por suscripción, han mostrado un estancamiento o retroceso relativo.
+
+![Contexto Global](https://github.com/jorgesislema/An-lisis-Integral-del-Sector-de-Telecomunicaciones-en-Argentina-/blob/main/imagenes/output1.1.png?raw=true)
+
+---
+
+## Análisis Descriptivo
+
+### Ingresos por Tecnología (2014-2024)
+
+Este análisis compara los ingresos generados por cada tecnología de telecomunicaciones entre 2014 y 2024, destacando las principales tendencias y cambios en el mercado:
+
+- **Telefonía Móvil**:
+  - Liderazgo en ingresos: En 2014, generaba 13,970.8 millones de pesos, mientras que en 2024 se estima que alcanzará 1,108,472.5 millones de pesos.
+  - Crecimiento sostenido: Su capacidad de adaptación a la tecnología móvil consolidó su liderazgo.
+
+- **Internet**:
+  - Crecimiento exponencial: En 2014, los ingresos eran de 3,270.8 millones de pesos, aumentando a 442,032.2 millones de pesos en 2024.
+  - Fluctuaciones: A pesar de caídas económicas, desde 2022 ha mostrado una recuperación acelerada.
+
+- **Telefonía Fija y TV por Suscripción**:
+  - Crecimiento marginal y relevancia en declive: Estas tecnologías han sido desplazadas por la telefonía móvil y las plataformas de streaming.
+
+---
+
+### Variación Regional
+
+1. **Acceso por Provincia**:
+   - Zonas urbanas como la Patagonia lideran en conectividad, mientras que el Noreste enfrenta brechas significativas.
+
+2. **Impacto de la Pandemia**:
+   - Durante la pandemia, la dependencia del internet aumentó significativamente, impulsando un mayor crecimiento en regiones con mejor infraestructura.
+
+![Ingresos por Tecnología](https://github.com/jorgesislema/An-lisis-Integral-del-Sector-de-Telecomunicaciones-en-Argentina-/blob/main/imagenes/Evoluci%C3%B3n%20de%20Accesos%20por%20cada%20100%20Hogares%20en%20Provincias.png?raw=true)
+
+---
+
+### Análisis de Distribución de Accesos por Tecnología (2014 vs 2024)
+
+El gráfico de donas compara la distribución de accesos a internet entre 2014 y 2024 según las principales tecnologías:
+
+- **Fibra Óptica**:
+  - Creció significativamente, alcanzando el 36.1% en 2024 debido a la creciente demanda de mayor ancho de banda.
+
+- **Cablemódem**:
+  - Representa el 50.8% en 2024, creciendo desde el 38.1% en 2014.
+
+- **ADSL**:
+  - Cayó del 57.4% en 2014 a valores marginales en 2024, reflejando su obsolescencia.
+
+- **Wireless**:
+  - A pesar de un leve crecimiento, sus limitaciones restringen su adopción masiva.
+
+---
+
+## Distribución de Tecnologías por Provincia
+
+El gráfico de árbol (Treemap) muestra cómo se distribuyen las tecnologías de acceso a internet en cada provincia argentina:
+
+- **Variación entre Provincias**:
+  - Buenos Aires, Córdoba y Santa Fe tienen una distribución equilibrada entre fibra óptica, cablemódem y wireless.
+  - Provincias como Formosa y Santiago del Estero dependen más de tecnologías como wireless y satelital.
+
+- **Predominio de Fibra Óptica**:
+  - En provincias más urbanizadas, como CABA, la fibra óptica y el cablemódem son predominantes.
+
+![Distribución de Tecnologías](https://github.com/jorgesislema/An-lisis-Integral-del-Sector-de-Telecomunicaciones-en-Argentina-/blob/main/imagenes/arbol%20Treemap.png?raw=true)
+
+---
+
+## Conclusiones Generales
+
+1. **Telefonía Móvil e Internet**:
+   - Son los pilares del sector, con un crecimiento constante.
+
+2. **Telefonía Fija y TV por Suscripción**:
+   - Están siendo reemplazadas por alternativas modernas como el streaming.
+
+3. **Brechas Regionales**:
+   - Persisten desigualdades significativas entre regiones urbanas y rurales.
+
+Este análisis establece una base para identificar oportunidades de inversión y mejora en el sector de telecomunicaciones en Argentina.
