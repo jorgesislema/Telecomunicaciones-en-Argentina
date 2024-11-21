@@ -1,6 +1,7 @@
 ** "Análisis Integral de la Rentabilidad de Internet en Argentina" **
 ---
-![Logotipo](https://github.com/jorgesislema/An-lisis-Integral-del-Sector-de-Telecomunicaciones-en-Argentina-/blob/main/imagenes/logotipo%201.png?raw=true)
+![Logotipo del proyecto](https://github.com/jorgesislema/Telecomunicaciones-en-Argentina/blob/main/Evoluci%C3%B3n%20del%20Mercado%20de%20Internet%20en%20Argentina/datos/imagenes/logotipo%201.png?raw=true)
+
 
 ##📌 Introducción
 
