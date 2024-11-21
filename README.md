@@ -85,11 +85,6 @@ Este proyecto tiene como propósito realizar un análisis integral del sector de
 │   ├── logotipo1.png
 │   ├── ...
 │
-├── 📂 docs
-│   ├── ETL_documentation.pdf
-│   ├── EDA_documentation.pdf
-│   ├── KPI_analysis.pdf
-│   ├── Dashboard_summary.pdf
 │
 ├── 📂 dashboard
 │   ├── telecom_dashboard.pbix
@@ -245,6 +240,58 @@ El gráfico de árbol (Treemap) ilustra la distribución de tecnologías de acce
   - En zonas como **Formosa** y **Santiago del Estero**, tecnologías como **wireless** y **satelital** tienen mayor presencia.
 
 ---
+📊 ##**Creación de la Base de Datos**  
+1. Creación de la Base de Datos
+
+Con los archivos procesados en el ETL , procedimos a construir la base de datos necesaria para analizar los KPIs definidos. Los pasos realizados incluyen:
+
+    Tablas creadas :
+        Dim_Tecnologías : Contiene información sobre las tecnologías de acceso a internet (fibra óptica, cablemódem, ADSL, etc.).
+        Dim_Provincias : Incluye datos demográficos y geográficos de las provincias argentinas.
+        Dim_Tiempo : Tabla calendario utilizada para análisis temporales.
+        Fact_Accesos : Registra los accesos a internet, telefonía fija, móvil y televisión por cada 100 hogares/habitantes.
+        Fact_Ingresos : Detalla los ingresos por internet, telefonía móvil, televisión por suscripción y satelital. 
+
+    Modelo Estrella :
+        Se establecieron relaciones entre las tablas dimensión y las tablas de hechos, optimizando el modelo para su integración en herramientas de análisis como Power BI . 
+
+    Objetivo del Modelo :
+        Crear una estructura eficiente que facilite la generación de gráficos y métricas para medir el cumplimiento de los KPIs propuestos. 
+
+##** Dashboard para el Análisis Integral de la Rentabilidad de Internet en Argentina**
+
+Tras cargar la base de datos en Power BI , se diseñaron los gráficos necesarios para analizar y visualizar los datos relacionados con la rentabilidad de internet en Argentina . Los pasos realizados incluyen:
+
+    Gráficos creados :
+        Gráfico de líneas : Muestra la evolución de los ingresos por internet, telefonía móvil y televisión entre 2014 y 2024.
+        Mapa de calor : Destaca las provincias con mayor crecimiento en accesos por cada 100 hogares.
+        Gráfico de barras apiladas : Compara la distribución de accesos por tecnologías en las provincias.
+        Gráfico de donas : Representa la aceptación de los servicios de televisión satelital y por suscripción.
+        Tablas dinámicas : Muestran el cumplimiento de los KPIs en tiempo real, con desgloses por trimestre y año. 
+
+    Análisis realizados :
+        Internet :
+            Se analizó el cumplimiento del KPI de un incremento del 2% en los accesos por cada 100 hogares, observando que, aunque no se cumplió inicialmente, se proyecta una mejora sostenida.
+            Los ingresos proyectados para 2024 superaron las expectativas, alcanzando 442.03 millones de pesos . 
+        Telefonía móvil :
+            El KPI de 30% de aumento en ingresos se cumplió, con un incremento destacado en los accesos operativos. 
+        Televisión por suscripción :
+            El KPI de un aumento del 3% en aceptación también fue alcanzado, con un crecimiento notable en los accesos por suscripción. 
+
+3. Contexto de los KPIs Propuestos
+
+    Aumentar en un 2% el acceso al servicio de Internet por cada 100 hogares en cada provincia para el próximo trimestre :
+        Aunque este KPI no se cumplió inicialmente, se espera un incremento del 0.5% al 1% en los próximos períodos, gracias a inversiones en tecnologías modernas como fibra óptica y cablemódem. 
+
+    Incrementar las ganancias del servicio de Internet en un 50% durante el año 2024 :
+        Este KPI fue superado , con ingresos que pasaron de 118.06 millones de pesos en 2023 a 442.03 millones de pesos en el primer semestre de 2024 . 
+
+    Lograr un aumento del 30% en los ingresos por telefonía móvil :
+        Meta cumplida , con ingresos superiores a 5,632 millones de pesos en el primer semestre de 2024, impulsados por la adopción masiva de dispositivos móviles y accesos operativos. 
+
+    Incrementar en un 3% la aceptación de accesos de televisión por suscripción por cada 100 habitantes para el próximo trimestre :
+        El KPI fue cumplido , con un crecimiento en la aceptación del servicio de televisión por suscripción y un aumento proyectado de 679.38 accesos más . 
+---
 
 ## ✅ 3. Conclusiones Generales
 
@@ -261,5 +308,26 @@ El gráfico de árbol (Treemap) ilustra la distribución de tecnologías de acce
    - Las regiones menos conectadas presentan oportunidades para desarrollar infraestructura y mejorar la inclusión digital.
 
 ---
+📌 Recomendaciones Generales
 
+    Modernización Tecnológica en Contratos Estatales
+        Los nuevos contratos estatales deben incluir una visión de salto tecnológico , asegurando que las implementaciones contemplen tecnologías con una vigencia no menor a tres años .
+        Esto permitirá evitar procesos intermedios, como la transición de 3G a 4G, y promover directamente la adopción de tecnologías avanzadas como el 5G, previniendo rezagos tecnológicos y garantizando que el país esté alineado con los estándares internacionales.
+
+    Combatir la Piratería
+        Es fundamental que los gobiernos se enfoquen en reducir la piratería en el sector de telecomunicaciones e internet.
+        Esta medida no solo aumentará la confianza en las plataformas legales, sino que también abrirá nuevas líneas de negocio en internet, incentivando la aceptación de servicios legales entre los ciudadanos y contribuyendo al desarrollo económico del sector.
+
+    Regulación de Precios Basada en Calidad
+        Se recomienda establecer políticas claras para regular los precios de los servicios de internet y telecomunicaciones, ajustándolos en función de:
+            La calidad del servicio ofrecido.
+            La prestación de servicios adicionales , como velocidad, estabilidad y atención al cliente. 
+        Esto asegurará que los usuarios reciban un servicio justo y competitivo, mejorando la percepción del mercado. 
+
+    Inversión en Internet como Servicio Básico
+        La tecnología evoluciona constantemente , y el internet se está convirtiendo cada vez más en un servicio básico esencial , como la electricidad o el agua.
+        Es crucial que tanto los gobiernos como las empresas privadas inviertan en infraestructura y expansión para garantizar el acceso universal y satisfacer la creciente demanda.
+        Este enfoque asegurará que el internet y las telecomunicaciones sigan siendo un negocio rentable y sostenible, al tiempo que promuevan el desarrollo social y económico. 
+
+---
 Este análisis establece una base para identificar oportunidades de inversión y mejora en el sector de telecomunicaciones en Argentina.
