@@ -1,4 +1,4 @@
-*** "Análisis Integral de la Rentabilidad de Internet en Argentina" 
+** "Análisis Integral de la Rentabilidad de Internet en Argentina" **
 ---
 ![Logotipo](https://github.com/jorgesislema/An-lisis-Integral-del-Sector-de-Telecomunicaciones-en-Argentina-/blob/main/imagenes/logotipo%201.png?raw=true)
 
