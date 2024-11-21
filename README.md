@@ -1,5 +1,4 @@
-# An-lisis-Integral-del-Sector-de-Telecomunicaciones-en-Argentina-
-"Análisis Integral del Sector de Telecomunicaciones en Argentina: Exploración de Datos, Métricas Clave y Dashboard Interactivo" 
+*** "Análisis Integral de la Rentabilidad de Internet en Argentina" 
 ---
 ![Logotipo](https://github.com/jorgesislema/An-lisis-Integral-del-Sector-de-Telecomunicaciones-en-Argentina-/blob/main/imagenes/logotipo%201.png?raw=true)
 
@@ -180,7 +179,6 @@ En **Argentina**, este fenómeno es igualmente relevante. El internet y la telef
 
 ### Ingresos por Tecnología (2014-2024)
 
-![Ingresos por Tecnología](https://github.com/jorgesislema/Telecomunicaciones-en-Argentina/blob/main/imagenes/output1.1.png?raw=true)
 
 Se compararon los ingresos generados por cada tecnología de telecomunicaciones entre 2014 y 2024, destacando:
 
@@ -211,7 +209,7 @@ Se compararon los ingresos generados por cada tecnología de telecomunicaciones 
 
 El gráfico de comparación muestra cómo las tecnologías de acceso a internet han evolucionado:
 
-![Distribución de Tecnologías](https://github.com/jorgesislema/An-lisis-Integral-del-Sector-de-Telecomunicaciones-en-Argentina-/blob/main/imagenes/arbol%20Treemap.png?raw=true)
+
 
 - **Fibra Óptica**:
   - Creció significativamente, alcanzando el **36.1% en 2024**, impulsada por la demanda de mayor velocidad y ancho de banda.
@@ -230,8 +228,6 @@ El gráfico de comparación muestra cómo las tecnologías de acceso a internet 
 ### 🌍 Distribución de Tecnologías por Provincia
 
 El gráfico de árbol (Treemap) ilustra la distribución de tecnologías de acceso en cada provincia:
-
-![Distribución de Tecnologías](https://github.com/jorgesislema/An-lisis-Integral-del-Sector-de-Telecomunicaciones-en-Argentina-/blob/main/imagenes/arbol%20Treemap.png?raw=true)
 
 - **Provincias Urbanas**:
   - En regiones como **CABA, Buenos Aires y Córdoba**, predomina la **fibra óptica** y el **cablemódem**.
