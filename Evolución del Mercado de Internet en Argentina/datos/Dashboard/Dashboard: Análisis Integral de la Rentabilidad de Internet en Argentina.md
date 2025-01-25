@@ -1,4 +1,4 @@
-# 📊 Dashboard: Análisis Integral de la Rentabilidad de Internet en Argentina
+# 📊 Dashboard.- Análisis Integral de la Rentabilidad de Internet en Argentina
 
 ---
 
